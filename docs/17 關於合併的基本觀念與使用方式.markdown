@@ -134,7 +134,7 @@
 
 ![image](https://f.cloud.github.com/assets/88981/1342439/842d0ffc-3663-11e3-9687-b023fa519712.png)
 
-現在，我們兩個分支都同時修改了 `a.txt` 的檔案內容，而且都在同一行，這個時候發生衝突，勢必引發「衝突」。我們就馬上來體驗一下：
+現在，我們兩個分支都同時修改了 `a.txt` 的檔案內容，而且都在同一行，這樣的修改方式，勢必引發「衝突」。我們就馬上來體驗一下：
 
 ![image](https://f.cloud.github.com/assets/88981/1342452/f1f3b996-3663-11e3-8f60-2d643d7c16f2.png)
 
@@ -184,7 +184,7 @@
 
 真的要解決衝突，你必須手動把這些衝突的檔案改好。不過，如果這時使用 SourceTree 來修復衝突的檔案，那生命將會美好許多。
 
-我們開啟 SourceTree 並進入 Working Copy 節點，在檔案清單中按下滑鼠右鍵，這時有個 **Resolve Conflicts** (解決衝突) 的選單，這裡你就能選擇你要用我的(`Mine`)或是用他的(`Theirs`)來解決這個檔案的衝突狀態。所謂「我的」就是你當前工作目錄的那個分支(`master`)，而「他的」就是被我們指定合併進來的那個分支(`hotfixes`)。
+我們開啟 SourceTree 並進入 Working Copy 節點，在檔案清單中按下滑鼠右鍵，這時有個 **Resolve Conflicts** (解決衝突) 的選單，這裡你就能選擇你要用我的(`Mine`)或是用其他人的(`Theirs`)來解決這個檔案的衝突狀態。所謂「我的」就是你當前工作目錄的那個分支(`master`)，而「他的」就是被我們指定合併進來的那個分支(`hotfixes`)。
 
 ![image](https://f.cloud.github.com/assets/88981/1342901/0d32f4e0-366b-11e3-9343-2094141ac4d0.png)
 
@@ -227,3 +227,14 @@ Git 合併算是比較困難的部分，但重點還是在觀念，觀念正確�
 -------
 
 * [BRANCHING AND MERGING](http://gitref.org/branching/#merge)
+
+
+
+-------
+* [回目錄](../README.markdown)
+* [前一天](16 善用版本日誌 git reflog 追蹤變更軌跡.markdown)
+* <a href="18 修正 commit 過的版本歷史紀錄 Part 1 (reset & amend).markdown">下一天</a>
+
+-------
+
+
